@@ -1,0 +1,17 @@
+button:hover{
+background-color: red;
+}
+
+button{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+}
+
+footer{
+    text-decoration: none;
+}
+.seeerd{
+    text-decoration: none;
+}

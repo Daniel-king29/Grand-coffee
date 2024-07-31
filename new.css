@@ -1,0 +1,54 @@
+#about{
+    background-color: orange;
+    color: black;
+    padding: 20px;
+}
+.favfood{
+    /* h4{
+        text-align: right;
+    }
+    ul{
+        text-align: right;
+    }  */
+    th{
+    text-align: right;
+    }
+    background-color: gold;
+    /* display: flex; */
+}
+
+.myski{
+    /* justify-content: space-between; */
+    /* display:inline-flex; */
+    background-color: red;
+    /* text-align: right; */
+    padding: 15px;
+}
+
+table td, th{
+  border: 2px solid green; 
+  padding: 10px;
+  font-size: x-large;  
+}
+
+/* #fst{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.parentdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-h4{
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+}

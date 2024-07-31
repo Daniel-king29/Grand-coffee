@@ -1,0 +1,42 @@
+/* body{
+    background-color: blue;
+    color: red;
+    background-image: linear-gradient(to right, purple, gray, orange);
+    text-align:unset;
+} */
+
+h2{
+    block-size: 25%;
+}
+
+input{
+    background-color: blue;
+}
+
+input[type=text]{
+    background-color: black;
+    width: 50%;
+    padding: 7px;
+}
+
+textarea{
+    width: 50%;
+}
+
+.firstdiv{
+    background-color: crimson;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.sediv{
+    margin-top: 40px;
+    margin-left: 40px;
+}

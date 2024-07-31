@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my new website</title>
+    <link rel="stylesheet" href="new.css">
+    <style>
+
+        #home{
+            background-color: aqua;
+            color: white;
+            margin: 0%;
+            padding: 20px;
+            display: flex;
+            height: 500px;
+            justify-content: space-between;
+        }
+        #home p {
+            font-size: 30pt;
+        }
+        #home h1{
+            font-size: 50px;
+        }
+        #home button{
+            background-color: red;
+            color: black;
+            padding: 10px;
+            font-size: 20px;
+        }
+        #blog {
+            background-color: midnightblue;
+            padding: 2px;
+            height: 500px;
+            position: relative;
+            color: white;
+            font-size: x-large;
+        }
+        #blog h2{
+            color: rgb(245, 209, 209);
+            font-size: x-large;
+            text-transform:uppercase;
+            letter-spacing: 5px;
+            text-align: center;
+            transition-duration: 3s;
+            transition-delay: 3s;
+            transition-timing-function: ease-in;
+        }
+        #blog h2:hover{
+            font-size: smaller;
+            color: yellow;
+            text-shadow: 3px 3px red;
+        }
+        .favfrit{
+            position: absolute;
+            top: 250px;
+            right: 125px;
+            transition-duration: 3s;
+            transition-delay: 2s;
+            transition-timing-function: ease-in;
+        }
+        .favfrit:hover{
+            top: 270px;
+            left: 50px;
+            color: gold;
+        }
+        .fistdiv{
+        padding: 20px;
+        }
+        #gallery{
+            display: grid; 
+            grid-template-columns: auto auto auto;
+            /* column-gap: 5px; */
+            row-gap: 30px;
+            /* gap: 10; */
+           text-align: center;
+        }
+
+    </style>
+</head>
+<body >
+   <header>
+    <nav style="display: flex; justify-content: space-between;background-color: rgb(3, 82, 3); color: white;" >
+    
+        <img src="demon slayer.jfif" alt="" width="50px" height="50px" style="margin: 10px;" >
+        <div style="display: flex;">
+            <a style="margin:10px;" href="http://google.com" target="_blank"> Home</a>
+            <a style="margin:10px;" href=http://google.com" target="_blank"> About</a>
+            <a style="margin:10px;" href="http://google.com" target="_blank"> Contact</a>
+            <a style="margin:10px; "href="http://google.com" target="_blank"> Blog</a>
+        </div>
+        
+       
+
+    </nav>
+   </header>
+   <main>
+    <section id="home">
+        <div class="fistdiv">
+                    <h1>Wecome to my website</h1>
+            <p> My name is <strong>Daniel Marvellous</strong> and i am a <em> Developer</em> </p>
+            <button>Hire me</button>
+        </div>
+        <img src="Images2/marv.jpg" alt=" my pic" width="400px" height="400px" >
+    </section>
+    <section id="contact">
+
+    </section>
+    <section id="about">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ullam repellat esse mollitia quibusdam voluptatem harum et quia quaerat sint! Ipsum nam consequatur eum quos nemo ex ullam nulla dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repudiandae, quam molestias omnis, temporibus aut asperiores aperiam doloremque quidem at aliquam soluta non. Dicta perferendis autem, maiores possimus nemo dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aliquam reprehenderit quae recusandae voluptatibus molestias sint corrupti distinctio impedit enim ut eaque cupiditate, explicabo minima perferendis optio fugit voluptas consequatur!</p>
+        <div class="parentdiv">
+            <div class="favfood">
+                <h4 id="first-h4"> My favourite food</h4>
+                <ul>
+                    <li> Rice</li>
+                    <li> Rice</li>
+                    <li> Rice</li>
+                    <li> Rice</li>
+                    <li> Rice</li>
+                    <li> Rice</li>
+                    <li> Rice</li> 
+
+                </ul>
+            </div>
+
+            <div class="myski">
+                <h4 >My skills</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th> skills </th>
+                            <th>level</th>
+                            <th> Rate</th>
+                            <th>proficiency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>htm</td>
+                        <td>3</td>
+                        <td>&#127775; &#127775; &#127775;</td>
+                        <td> very good</td>
+                    </tr>
+                    <tr>
+                        <td>css</td>
+                        <td>2</td>
+                        <td>&#x1F320; &#x1F320;</td>
+                        <td> good</td>
+                    </tr>
+                    <tr>
+                        <td>catering</td>
+                        <td> intermidiate</td>
+                        <td> &#x1F31D;  &#x1F31D;</td>
+                        <td> good</td>
+                    </tr>
+                    <tr>
+                        <td>tailoring</td>
+                        <td>begineer</td>
+                        <td>&#x1F455; &#x1F455;</td>
+                        <td>not that good</td>
+                    </tr>
+                    <tr>
+                        <td>martial artist</td>
+                        <td>begineer</td>
+                        <td>  &#x1F481;  &#x1F481;</td>
+                        <td>manageable</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div> 
+        </div>
+        
+    </section>
+    <section id="blog">
+        <h2> Welcome to my blog</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quisquam molestias ipsam perspiciatis nihil sint, numquam in veniam quo, fugiat qui tempora porro corporis, vero omnis vitae atque ex voluptas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, expedita. Repellat deserunt dicta eligendi eos porro laboriosam sit quidem cumque et, ea ad ipsa vero ex quis ratione maiores. Corporis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo in mollitia asperiores ullam, corporis quos distinctio consectetur harum architecto blanditiis, culpa incidunt labore maiores. A, magni. Hic eveniet praesentium rem?</p>
+        
+        <h4> List of fruits:</h4>
+        <ul>
+            <li class="favfrit"> orange</li>
+            <li> Apple</li>
+            <li> Banana</li>
+        </ul>
+    </section>
+    <div id="gallery">
+        <div> <img src="demon slayer.jfif" alt=""> </div>
+        <div> <img src="demon slayer.jfif" alt=""> </div>
+        <div> <img src="demon slayer.jfif" alt=""> </div>
+        <div> <img src="demon slayer.jfif" alt=""> </div>
+        <div> <img src="demon slayer.jfif" alt=""> </div>
+        <div> <img src="demon slayer.jfif" alt=""> </div>
+        <div> <img src="demon slayer.jfif" alt=""> </div>
+        <div> <img src="demon slayer.jfif" alt=""> </div>
+
+    </div>
+   </main>
+   <footer style="padding-top: 20px; padding-bottom: 20px; background-color: black; color: white;">
+     <div style="display: flex; justify-content: space-between;">
+        <p> Home</p>
+        <p> About</p>
+        <p> Blog</p>
+        <div>
+            <p>Exelent</p>
+            <p>Html Developer</p>
+            <p>Enthsiastic developer</p>
+        </div>
+        <div> 
+            <h4> Contact me</h4>
+            <p>marvellous@gmail.com</p>
+        </div>
+     </div>
+     <marquee behavior="" direction="" style="border-top:solid;">&copy;Copyright marvellous,2024</marquee>
+   </footer> 
+</body>
+</html>

@@ -1,0 +1,25 @@
+#secdiv {
+    background-color:orangered; 
+    padding: 10px; 
+}
+#secdiv:hover{
+    background-color: white;
+}
+
+.btt{
+    display: none;
+}
+
+#thidiv:hover{
+    background: white;
+    .btt{
+    display: block;
+}
+}
+
+#foudiv:hover{
+    background: rgb(12, 12, 12)
+}
+
+
+
