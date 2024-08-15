@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+
+
+
 body input{
     border-radius: 50px;
     padding-top: 2px;
@@ -18,16 +28,85 @@ textarea{
 }
 button{
     padding: 10px;
-    background-color: red;
+    background-color:tomato;
     border-radius: 50px;
     width: 100px;
 }
 
 .ttrey{
-padding: 13px;
 font-size: large;
+width: 500px;
+height: 100px;
+text-align: center;
+padding-right: 350px;
+/* padding-left: 50px; */
+display: flex;
+width: 500px;
+margin-left: 150px;
+padding-top: 20px;
 }
 
-nav{
-    margin: 50px;
+/* *{
+    margin: 0;
+     padding: 0; 
+    box-sizing: border-box;
+} */
+
+.home{
+    text-decoration: none;
+    color: white;
+}
+.center{
+    text-decoration: none;
+    color: white;
+}
+.Gallery{
+    text-decoration: none;
+    color: white;
+}
+
+.servicies{
+    text-decoration: none;
+    color: white;
+}
+
+.About{
+    text-decoration: none;
+    color: white;
+}
+
+.dan{
+    padding-left: 50px;
+    display: flex;
+    width: 500px;
+    margin-left: 150px;
+}
+.nder{
+    text-decoration: none;
+}
+
+.der{
+    text-decoration: none;
+    color: white;
+}
+.dev{
+    text-decoration: none;
+    color: white;
+}
+dzd{
+    display: flex;
+    height: 500px;
+}
+
+iframe{
+    width: 700px;
+    height: 500px;
+}
+
+.cde{
+    background-image: url('images/img-9.png'); 
+    background-repeat: no-repeat; 
+    text-align: center;
+    background-size: contain;
+    height: 500px;
 }

@@ -1,5 +1,12 @@
+*{
+    margin: 0;
+     padding: 0; 
+    box-sizing: border-box;
+}
+
 button:hover{
 background-color: red;
+cursor: pointer;
 }
 
 button{
@@ -12,6 +19,34 @@ button{
 footer{
     text-decoration: none;
 }
-.seeerd{
+/* .seeerd{
     text-decoration: none;
+} */
+.diev{
+    text-align: center;
+    display: flex; 
+    justify-content: space-between;
+    color: black;
+}
+
+.devc{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.hi{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+/* .hii{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+} */
+
+#home:hover{
+   color: red;
+   background-color: brown;
 }

@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+     padding: 0; 
+    box-sizing: border-box;
+}
+
+
 #Gallery img{
     height: 300px;
     width: 300px;
@@ -7,7 +14,7 @@
     text-align: center;
 }
  button{
-    /* text-align: center; */
+    
     height: 30px;
     width: 80px;
     padding-top: 1cap;
@@ -20,6 +27,31 @@ button:hover{
     background-color: tomato;
 }
 
-body{
-    
+.den{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    background-color: w;
+}
+
+#home{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+#home:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+#hom{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#hom:hover{
+    color: tomato;
+    cursor: pointer;
 }
